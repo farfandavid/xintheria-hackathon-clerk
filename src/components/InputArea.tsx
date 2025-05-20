@@ -108,7 +108,7 @@ export const InputArea = ({ currentProject, files, onCreateProject, onSendMessag
                     {isLoading || isSending ? <RefreshCw className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4 text-white" />}
                 </Button>
             </div>
-            {attachFile && <div className="absolute left-6 bottom-4 transform -translate-y-1/2 flex items-center gap-2">
+            {/* attachFile && <div className="absolute left-6 bottom-4 transform -translate-y-1/2 flex items-center gap-2">
                 <div className="flex items-center gap-2 border rounded-md text-xs px-2 py-1">
                     <Image className="h-4 w-4" />
                     <span>{truncateText(attachFile.name)}</span>
@@ -117,7 +117,7 @@ export const InputArea = ({ currentProject, files, onCreateProject, onSendMessag
                         <X className="h-2 w-2" />
                     </Button>
                 </div>
-            </div>}
+            </div> */}
         </form>
     )
 }
