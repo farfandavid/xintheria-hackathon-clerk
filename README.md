@@ -7,6 +7,7 @@
 A continuación se muestran algunas capturas de pantalla de la aplicación:
 
 ![Pantalla de inicio](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/inicio.png)
+![SignIn](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/signin.png)
 ![app_inicio](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/app_inicio.png)
 ![Editor](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/editor.png)
 ![Preview](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/preview.png)
