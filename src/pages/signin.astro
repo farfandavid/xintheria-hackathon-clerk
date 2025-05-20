@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ClerkForm } from '@/components/pages/ClerkForm';
+const { userId } = Astro.locals.auth();
+if (userId) return Astro.redirect('/app');
+---
+
+<Layout>
+  <ClerkForm type="signin" client:load />
+</Layout>
+<script>
+  import { theme } from '@/stores/themeStore';
+</script>

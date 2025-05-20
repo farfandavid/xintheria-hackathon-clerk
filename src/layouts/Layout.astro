@@ -1,0 +1,46 @@
+---
+import { ThemeToggle } from '@/components/ThemeToggle';
+import '@/styles/global.css';
+interface Props {
+  title: string;
+  description: string;
+  lang: string;
+}
+
+const { title, description, lang } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{'Xintheria | ' + title}</title>
+  </head>
+  <body>
+    <ThemeToggle client:only />
+    <slot />
+  </body>
+</html>
+
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<script>
+  import { initTheme } from '@/stores/themeStore';
+
+  initTheme();
+</script>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="441.59381"
+   height="333.30273"
+   viewBox="0 0 441.59381 333.30273"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><linearGradient
+       id="linearGradient96"><stop
+         style="stop-color:#e074d1;stop-opacity:1;"
+         offset="0"
+         id="stop109" /><stop
+         style="stop-color:#c724b1;stop-opacity:1;"
+         offset="0.49775112"
+         id="stop95" /><stop
+         style="stop-color:#04fff7;stop-opacity:1;"
+         offset="1"
+         id="stop96" /></linearGradient><linearGradient
+       xlink:href="#linearGradient96"
+       id="linearGradient3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1194.6293,618.04975)"
+       x1="-1370.8809"
+       y1="1209.252"
+       x2="-1370.8809"
+       y2="1657.5547" /></defs><g
+     id="layer1"
+     transform="translate(397.21249,-1827.3018)"><path
+       d="m -289.63239,1827.3017 -107.5801,153.6386 107.5938,153.6621 h 56.3652 l -107.586,-153.6504 107.5899,-153.6503 z m 113.3808,0 -14.6289,20.8925 55.8262,79.7285 h 29.2598 z m 57.0118,0 96.742102,138.1582 28.1816996,-40.2481 -68.5585996,-97.9101 z m -77.2657,28.9257 -50.2011,71.6953 h 29.248 l 35.5781,-50.8085 z m 20.25,62.1328 -43.8261,62.5918 31.2265,44.5977 9.0996,-12.9922 -22.1328,-31.6055 34.7266,-49.5957 z m 12.5996,17.9942 -9.0957,12.9922 22.1309,31.6054 -34.7285,49.5957 9.0996,12.9981 43.8301,-62.5938 z m 179.759802,4.9394 -27.7617,39.6485 -107.595702,153.6621 h 56.380802 l 79.4043,-113.4024 27.8497,-39.7734 z m -318.349602,39.3711 125.9941,179.9395 26.1602,-37.3633 -99.832,-142.5762 z m 199.6836,0 -63.6211,90.8594 26.1523,37.3496 89.773502,-128.209 z"
+       style="fill:url(#linearGradient3);fill-opacity:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.2"
+       id="path95-6" /></g></svg>

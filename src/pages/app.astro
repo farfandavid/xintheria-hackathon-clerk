@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Main } from '@/components/pages/Main';
+const { userId } = Astro.locals.auth();
+if (!userId) {
+  return Astro.redirect('/login');
+}
+---
+
+<Layout title="App" description="Xintheria App" lang="en">
+  <Main client:only />
+</Layout>

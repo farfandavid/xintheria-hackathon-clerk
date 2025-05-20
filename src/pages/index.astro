@@ -1,0 +1,50 @@
+---
+import { uiIndex } from '@/i18n/ui';
+import Layout from '../layouts/Layout.astro';
+import Logo from '@/assets/Logo.svg.astro';
+import { UserDB } from '@/db/user';
+const lang: 'es' | 'en' = 'es';
+const t = uiIndex[lang as keyof typeof uiIndex];
+---
+
+<Layout title={t.title} description={t.heroSection.description} lang={lang}>
+  <div class="overflow-x-hidden max-h-dvh overflow-y-hidden">
+    <!-- Hero Section -->
+    <section class="relative py-20 sm:py-32 lg:pb-32 xl:pb-36">
+      <div class="relative px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:max-w-4xl lg:text-center">
+          <h1 class="font-bold text-4xl sm:text-6xl text-muted-foreground bg-clip-text">
+            {t.heroSection.heading}
+            <div class="flex flex-col items-center justify-center">
+              <Logo />
+            </div>
+          </h1>
+          <p class="mt-6 text-lg leading-8 text-muted-foreground">
+            {t.heroSection.description}
+          </p>
+          <div class="mt-10 flex flex-col gap-2 items-center justify-center gap-x-6">
+            <a
+              href={t.heroSection.ctaPrimary.link}
+              class="rounded-full bg-gradient-to-r from-secondary to-primary px-8 py-3 text-foreground shadow-lg hover:opacity-90 transition"
+            >
+              {t.heroSection.ctaPrimary.text}
+            </a>
+            <a
+              href={t.heroSection.ctaSecondary.link}
+              class="text-muted-foreground hover:text-foreground transition"
+            >
+              {t.heroSection.ctaSecondary.text}
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Gradient Orbs -->
+      <div class="absolute -top-24 -left-48 w-96 h-96 bg-primary opacity-30 rounded-full blur-3xl">
+      </div>
+      <div
+        class="absolute -bottom-24 -right-48 w-96 h-96 bg-secondary opacity-30 rounded-full blur-3xl"
+      >
+      </div>
+    </section>
+  </div>
+</Layout>

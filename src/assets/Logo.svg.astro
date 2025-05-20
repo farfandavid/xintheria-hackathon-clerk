@@ -1,0 +1,105 @@
+---
+import XitheriaName from '@/assets/xintheria_title.svg';
+---
+
+<svg
+  class="h-96"
+  viewBox="0 0 512 512"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="a"
+      ><stop style="stop-color:#e074d1;stop-opacity:1" offset="0"></stop><stop
+        style="stop-color:#c724b1;stop-opacity:1"
+        offset=".498"></stop><stop style="stop-color:#04fff7;stop-opacity:1" offset="1"
+      ></stop></linearGradient
+    ><linearGradient
+      xlink:href="#a"
+      id="b"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(1627.045 -1119.903)"
+      x1="-1370.881"
+      y1="1209.252"
+      x2="-1370.881"
+      y2="1657.555"></linearGradient><linearGradient
+      xlink:href="#a"
+      id="d"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(1819.323 -1119.903)"
+      x1="-1370.881"
+      y1="1209.252"
+      x2="-1370.881"
+      y2="1657.555"></linearGradient><linearGradient
+      xlink:href="#a"
+      id="c"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(1434.438 -1119.903)"
+      x1="-1370.881"
+      y1="1209.252"
+      x2="-1370.881"
+      y2="1657.555"></linearGradient>
+  </defs>
+  <path
+    d="m256.164 89.348-14.629 20.892 55.826 79.729h29.26zm-20.254 28.925-50.2 71.697h29.248l35.578-50.809zm20.25 62.133-43.826 62.592 31.227 44.598 9.1-12.992-22.134-31.606 34.727-49.596zm12.6 17.994-9.096 12.993 22.13 31.605-34.728 49.596 9.1 12.998 43.83-62.594zm-138.59 44.31 125.994 179.94 26.16-37.363-99.832-142.576zm199.684 0-63.622 90.86 26.153 37.35 89.773-128.21z"
+    style="display:inline;fill:url(#b);stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.2"
+    class="animate-transparency-to-opaque"></path>
+  <path
+    d="m120.57 89.348 96.741 138.158 28.182-40.248-68.559-97.91zM255.912 203.34l-27.762 39.648L120.556 396.65h56.38l79.405-113.402 27.85-39.773z"
+    style="fill:url(#c);stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.2"
+    class="animate-center-to-right"></path>
+  <path
+    d="m335.062 89.348-106.91 153.638 106.923 153.662h56.366l-107.586-153.65 107.59-153.65Z"
+    style="fill:url(#d);stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.2"
+    class="animate-center-to-left"></path>
+</svg>
+<XitheriaName
+  class="max-h-16 max-sm:h-10 animate-text-logo drop-shadow-[0_0px_10px_rgba(254,57,164,1)]"
+/>
+<style>
+  .animate-center-to-right {
+    animation: center-to-right 1s ease-in-out 1s forwards;
+  }
+
+  .animate-center-to-left {
+    animation: center-to-left 1s ease-in-out 1s forwards;
+  }
+
+  .animate-transparency-to-opaque {
+    opacity: 0;
+    animation: transparency-to-opaque 1s ease-in 2s forwards;
+  }
+
+  .animate-text-logo {
+    opacity: 0;
+    animation: transparency-to-opaque 1s ease-in 3s forwards;
+  }
+
+  @keyframes transparency-to-opaque {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes center-to-right {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(40%);
+    }
+  }
+
+  @keyframes center-to-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-40%);
+    }
+  }
+</style>
