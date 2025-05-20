@@ -6,10 +6,10 @@
 
 A continuación se muestran algunas capturas de pantalla de la aplicación:
 
-![Pantalla de inicio](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/home.png)
-![Página de autenticación](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/signin.png)
-![Panel de usuario](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/dashboard.png)
-![Generación de proyecto](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/project.png)
+![Pantalla de inicio](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/inicio.png)
+![app_inicio](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/app_inicio.png)
+![Editor](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/editor.png)
+![Preview](https://raw.githubusercontent.com/farfandavid/xintheria-hackathon-clerk/main/screenshot/preview.png)
 
 ## Descripcion del proyecto
 
