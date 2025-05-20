@@ -1,6 +1,15 @@
 # XINTHERIA
 
-[Demo](https://xintheria.vercel.app) • [Repositorio](./docs/API.md)
+[Demo](https://xintheria-hackathon-clerk.onrender.com) • [Repositorio](https://github.com/farfandavid/xintheria-hackathon-clerk)
+
+## Capturas de pantalla
+
+A continuación se muestran algunas capturas de pantalla de la aplicación:
+
+![Pantalla de inicio](./screenshot/home.png)
+![Página de autenticación](./screenshot/signin.png)
+![Panel de usuario](./screenshot/dashboard.png)
+![Generación de proyecto](./screenshot/project.png)
 
 ## Descripcion del proyecto
 
