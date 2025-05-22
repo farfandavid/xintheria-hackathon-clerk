@@ -19,7 +19,9 @@ export const onRequest = clerkMiddleware(
         returnBackUrl: '/signin',
       });
     }
-
+    if(isProtectedRoute(context.request) && userId){
+      createUserIfNotExists(userId || '');
+    }
     return next();
   },
   {
